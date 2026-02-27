@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build outputs
+.next
+out
+dist
+build
+coverage
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# environment files (NEVER commit)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+
+# misc
+.vercel
+netlify
